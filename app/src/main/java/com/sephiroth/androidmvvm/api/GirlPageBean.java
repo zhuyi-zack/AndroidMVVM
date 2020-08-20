@@ -1,4 +1,4 @@
-package com.sephiroth.network.bean;
+package com.sephiroth.androidmvvm.api;
 
 import java.util.List;
 

@@ -1,11 +1,9 @@
-package com.sephiroth.network;
-
-import com.sephiroth.network.bean.GirlPageBean;
+package com.sephiroth.androidmvvm.api;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
 
-interface ApiService {
+public interface ApiService {
 
     @GET("data/category/Girl/type/Girl/page/1/count/10")
     Observable<GirlPageBean> getGirl();
